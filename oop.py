@@ -58,7 +58,7 @@ class Manager(Employee):
 dev_1 = Developer('rachid', 'kerkri', 40000, 'python')
 dev_2 = Developer('Ayoub', 'kerkri', 50000, 'java')
 
-mng_1 = Manager('Laurent', 'gendrier', 60000, [dev_1, dev_2])
+mng_1 = Manager('paul', 'george', 60000, [dev_1, dev_2])
 mng_2 = Manager('Frc', 'GMr', 70000, [dev_1])
 
 
