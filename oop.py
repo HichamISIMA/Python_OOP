@@ -55,16 +55,10 @@ class Manager(Employee):
             print('--->', emp.fullname())
 
 
-dev_1 = Developer('hicham', 'kerkri', 40000, 'python')
+dev_1 = Developer('rachid', 'kerkri', 40000, 'python')
 dev_2 = Developer('Ayoub', 'kerkri', 50000, 'java')
 
 mng_1 = Manager('Laurent', 'gendrier', 60000, [dev_1, dev_2])
 mng_2 = Manager('Frc', 'GMr', 70000, [dev_1])
 
-# mng_1.print_emps()
-# print(dev_1)
-# print(repr(dev_1))
 
-#print(dev_1 + dev_2)
-
-print(len(dev_2))
